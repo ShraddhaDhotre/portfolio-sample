@@ -1,0 +1,253 @@
+/*navbar section*/
+.nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0px 0px 20px black;
+}
+.nav-name
+{
+	background-color: white;
+	border-radius: 25px;
+	margin-left: 10%;
+	font-family: Font Awesome 6 Free;
+}
+.myname
+{
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: Font Awesome 6 Free;
+}
+.mymenu
+{
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: Font Awesome 6 Free;
+	margin-left: 15px;
+}
+.mymenu:hover
+{
+	color: #09aded;
+	transition-duration: 0.8s;
+}
+.bg-img
+{
+	height: 730px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%;
+	margin-top: -20px;
+	background-image: url("https://img.freepik.com/free-vector/blue-background-with-abstract-waves_1393-258.jpg?w=1060&t=st=1693117123~exp=1693117723~hmac=44db1dda7783bc01ca0b90de081e3ac541e4863bcb60d5435c333ef0bb9caea5");
+}
+/*home section*/
+.myinfo
+{
+	padding: 250px 250px;
+}
+.myimg
+{
+	height: 200px;
+	width: 40%;
+}
+.myinfo-h
+{
+	font-size: 45px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.myinfo-p
+{
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.res-btn
+{
+	color: white;
+	background-color: #09aded;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 6px 25px;
+	border: none;
+}
+.res-btn:hover
+{
+    background-image: linear-gradient(to right,#147aa6,#83e2f7);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.pro-btn
+{
+	background-color: transparent;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px 15px;
+	border: none;
+	box-shadow: 0px 0px 5px black;
+	margin-left: 15px;
+}
+.pro-btn:hover
+{
+	color: white;
+	background-color: black;
+	transform: scale(1.1);
+    transition-duration: 1s;
+}
+.myimg
+{
+    margin-top: -20px;
+    margin-left: 50px;
+	width: 70%;
+	height: 70%;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 40px;
+}
+.myimg:hover
+{
+	transform: scale(1.1);
+	transition-duration: 1s;
+	box-shadow: 0px 0px 15px #0345ad;
+}
+/*about section*/
+.abt
+{
+	height: 500px;
+	width: 100%;
+	background-color: #6fe1f7;
+/*  background-image: linear-gradient(to right,#68ddf7,#aaecfa);*/
+}
+.abt-h
+{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-family: Font Awesome 6 Free;
+	margin-top: 80px;
+}
+.abtimg
+{
+	margin: 10px 80px;
+	text-align: center;
+	border-radius: 50px;
+}
+.abtpara
+{
+	margin: 40px 50px 40px -210px;
+	background-color: white;
+	padding: 40px;
+	margin-bottom: 340px;
+	text-align: justify;
+	box-shadow: 0px 0px 40px #03388c;
+}
+/*skills section*/
+.skill
+{
+	height: 500px;
+	margin-bottom: 80px;
+}
+.skill-h
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: Font Awesome 6 Free;
+	margin-top: 80px;
+}
+.card-li
+{
+	font-size: 20px;
+
+}
+.card-hov
+{
+	width: 18rem; 
+	box-shadow: 0px 0px 15px #03388c;
+}
+.card-hov:hover
+{
+	transform: scale(1.1);
+	transition-duration: 1s;
+	box-shadow: 0px 0px 15px black; !important;
+}
+/*project section*/
+.project
+{
+	height: 1370px;
+	width: 100%;
+	background-color: #6fe1f7;
+}
+.project-h
+{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-family: Font Awesome 6 Free;
+	margin-top: 80px;
+}
+.project-r
+{
+	margin-top: 40px;
+}
+.pro-img
+{
+	height: 60%;
+	width: 100%;
+}
+.proj-btn
+{
+	background-color: transparent;
+	font-size: 20px;
+	padding: 5px 15px;
+	border-radius: 15px;
+}
+.proj-btn:hover
+{
+	background-color: black;
+	color: white;
+}
+.card-text
+{
+	font-size: 17px;
+}
+/*contact section*/
+.contact
+{
+	height: 350px;
+}
+
+.contact-h
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: Font Awesome 6 Free;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.cont-i
+{
+	font-size: 20px;
+	width: 20rem;
+	border: 2px solid darkred;
+	box-shadow: 0px 0px 10px gray;
+}
+.cont-i i
+{
+	font-size: 30px;
+	margin-top: 15px;
+}
+.cont-i:hover
+{
+	transform: scale(1.1);
+	transition-duration: 1s;
+	border: 3px solid #1774e6;
+}
+/*footer section*/
+.footer
+{
+	height: 100px;
+	width: 100%;
+	background-color: #6fe1f7;
+}
+
